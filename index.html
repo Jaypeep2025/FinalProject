@@ -3,9 +3,298 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
+    <title>Pateros Technological College - Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <!-- ============ HEADER ============ -->
+    <header>
+        <div class="header-container">
+            <div class="logo-section">
+                <div class="logo"><img src="logos/PTC LOGO.png" alt="PTC Logo"></div>
+                <div class="school-name">Pateros Technological College</div>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About the School</a>
+                <a href="programs.html">Offered Programs</a>
+                <a href="organizations.html">School Organizations</a>
+                <a href="admissions.html">Admission</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============ VIDEO SECTION 3 & 8 ============ -->
+    <section class="video-section">
+        <div class="video-container" style="display:flex; gap:1.5rem; align-items:stretch; max-width:1200px; margin:0 auto; padding:0 2rem; box-sizing:border-box;">
+            <!-- Video (left) - use object-fit to avoid black bars -->
+            <div class="video-container-inner" style="flex:1; background:transparent; display:flex; align-items:center; justify-content:center;">
+                <video class="campus-tour-video" controls autoplay muted loop playsinline style="width:100%; height:100%; max-height:540px; object-fit:cover; background:transparent; border:none; display:block;">
+                    <source src="videos/PTC-BG-FINAL.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <!-- Student Life gallery (right) -->
+            <aside class="carousel-images student-gallery" style="width:360px;">
+                <h3 style="margin:0; color:var(--ptc-green); text-align:center; font-size:1.05rem; letter-spacing:0.6px;">STUDENT LIFE</h3>
+                <div class="student-gallery-track">
+                    <div class="gallery-card">
+                        <img src="images/1.jpg" alt="Student life 1">
+                        <div class="card-body">Campus Events</div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="images/2.jpg" alt="Student life 2">
+                        <div class="card-body">Clubs & Activities</div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="images/3.jpg" alt="Student life 3">
+                        <div class="card-body">Student Projects</div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="images/4.jpg" alt="Student life 4">
+                        <div class="card-body">Sports & Wellness</div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="images/5.jpg" alt="Student life 5">
+                        <div class="card-body">Community Service</div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- ============ APPLY / ADMISSION CTA ============ -->
+    <section style="background: linear-gradient(135deg, #fff 0%, #f7f7f7 100%); padding: 3rem 2rem;">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; gap: 2rem; align-items: center; justify-content: space-between;">
+            <div style="flex:1;">
+                <h2 style="color: var(--ptc-green); font-size: 28px; margin-bottom: 0.5rem;">Ready to join PTC?</h2>
+                <p style="color:#444; margin-bottom: 1rem;">Apply now and take the first step towards a skills-based, career-focused education. Check requirements, procedures, and start your application.</p>
+                <a href="admissions.html" class="carousel-btn" style="display:inline-block; padding: 12px 20px; text-decoration:none;">Apply Now</a>
+            </div>
+            <div style="width: 360px; text-align: right;">
+                <img src="logos/PTC LOGO.png" alt="PTC logo" style="width:120px; height:auto;">
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ VISION & MISSION ============ -->
+    <section class="key-information">
+        <div class="key-information" style="max-width:1200px; margin: 3rem auto; padding: 0 2rem;">
+            <h2 class="section-title">Vision &amp; Mission</h2>
+            <p style="color:#444; margin-bottom:1rem;">Pateros Technological College (PTC) envisions being a leading institution for holistic student development, producing globally competent graduates through quality, specialized instruction in tech and vocational fields, while fostering patriotism, strong morals, and environmental care; its mission involves providing accessible, skills-based education, enhancing creativity, and empowering marginalized individuals to contribute positively to society.</p>
+
+            <h3 style="color: var(--ptc-green); margin-top: 1rem;">Vision</h3>
+            <ul style="color: #444; margin-left: 1rem; line-height:1.8;">
+                <li>To be a leading institution committed to the holistic development of students for the betterment of their lives and society.</li>
+                <li>To foster creativity, leadership, and resourcefulness in students.</li>
+                <li>To produce graduates who are technologically adept, professionally competent, and socially responsible.</li>
+            </ul>
+
+            <h3 style="color: var(--ptc-green); margin-top: 1rem;">Mission</h3>
+            <ul style="color:#444; margin-left:1rem; line-height:1.8;">
+                <li>Provide Quality Education: Offer specialized professional instruction and training in scientific, technological, industrial, and vocational fields.</li>
+                <li>Develop Character: Enhance moral, spiritual, and cultural values, instilling patriotism and love for the country.</li>
+                <li>Promote Inclusivity: Offer educational opportunities, especially to marginalized individuals.</li>
+                <li>Foster Skills: Heighten students' creativity and leadership through co-curricular activities.</li>
+                <li>Champion the Environment: Promote environmental awareness and unconditional love for the Earth.</li>
+                <li>Support Graduates: Offer internship opportunities and possible employment pathways.</li>
+            </ul>
+
+            <h3 style="color: var(--ptc-green); margin-top: 1rem;">Core Values</h3>
+            <p style="color:#444;">Responsibility, Integrity, Compassion, Creativity, Commitment, Excellence, Environmental Concern.</p>
+        </div>
+    </section>
+
+    <!-- ============ CAROUSEL SECTION 4 - ANNOUNCEMENTS ============ -->
+    <section class="carousel-section announcements-section">
+        <h2>Latest News & Announcements</h2>
+        <div class="carousel-wrapper announcements-wrapper">
+            <div class="carousel-track announcements-track">
+                <div class="carousel-item announcements-item">
+                    <div class="announcement-image" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); font-size: 80px;">📋</div>
+                    <div class="carousel-date">December 7, 2025</div>
+                    <h3>Exam Schedule</h3>
+                    <p>Final examinations for all programs will be conducted from January 15 to February 10, 2025. Please refer to the student portal for your specific schedule.</p>
+                </div>
+                <div class="carousel-item announcements-item">
+                    <div class="announcement-image" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); font-size: 80px;">🎓</div>
+                    <div class="carousel-date">December 8, 2025</div>
+                    <h3>No Classes Alert</h3>
+                    <p>No classes on December 8 (Feast of the Immaculate Conception). All academic activities are suspended. Normal schedule resumes on December 9.</p>
+                </div>
+                <div class="carousel-item announcements-item">
+                    <div class="announcement-image" style="background: linear-gradient(135deg, #f39c12 0%, #d68910 100%); font-size: 80px;">🏆</div>
+                    <div class="carousel-date">December 10, 2025</div>
+                    <h3>New Scholarship Program</h3>
+                    <p>We're proud to announce a new merit-based scholarship program for outstanding academic achievers. Applications are now open until January 31, 2025.</p>
+                </div>
+                <div class="carousel-item announcements-item">
+                    <div class="announcement-image" style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); font-size: 80px;">🎉</div>
+                    <div class="carousel-date">December 19, 2025</div>
+                    <h3>Foundation Day Celebration</h3>
+                    <p>Join us in celebrating PTC's founding anniversary with fun activities, performances, and special prizes for all students and staff.</p>
+                </div>
+                <div class="carousel-item announcements-item">
+                    <div class="announcement-image" style="background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%); font-size: 80px;">⚽</div>
+                    <div class="carousel-date">January 10-15, 2026</div>
+                    <h3>Sports Fest 2026</h3>
+                    <p>Annual inter-departmental sports competition featuring basketball, volleyball, badminton, and many other exciting athletic events.</p>
+                </div>
+                <div class="carousel-item announcements-item">
+                    <div class="announcement-image" style="background: linear-gradient(135deg, #27ae60 0%, #229954 100%); font-size: 80px;">📚</div>
+                    <div class="carousel-date">February 2, 2026</div>
+                    <h3>Library Grand Opening</h3>
+                    <p>Witness the inauguration of our state-of-the-art digital library facility equipped with modern learning resources and technology.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CAROUSEL SECTION 6 - ORGANIZATIONS ============ -->
+    <section class="carousel-section" id="organizations" style="background-color: #f5f5f5;">
+        <h2>School Organizations</h2>
+        <div class="carousel-wrapper">
+            <div class="carousel-track">
+                <div class="carousel-item">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #eab70e 0%, #faef01 100%); border-radius: 8px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 28px;">👑</div>
+                    <h3>Student Supreme Council</h3>
+                </div>
+                <div class="carousel-item">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #eab70e 0%, #faef01 100%); border-radius: 8px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 28px;">🎨</div>
+                    <h3>The Plumage</h3>
+                </div>
+                <div class="carousel-item">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #eab70e 0%, #faef01 100%); border-radius: 8px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 28px;">📸</div>
+                    <h3>IMAGE Collaborative Media</h3>
+                </div>
+                <div class="carousel-item">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #eab70e 0%, #faef01 100%); border-radius: 8px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 28px;">⚙️</div>
+                    <h3>Engineering Club</h3>
+                </div>
+                <div class="carousel-item">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #eab70e 0%, #faef01 100%); border-radius: 8px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 28px;">💻</div>
+                    <h3>Tech Innovators</h3>
+                </div>
+                <div class="carousel-item">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #eab70e 0%, #faef01 100%); border-radius: 8px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 28px;">🎭</div>
+                    <h3>Performing Arts Guild</h3>
+                </div>
+                <div class="carousel-item">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #eab70e 0%, #faef01 100%); border-radius: 8px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 28px;">📖</div>
+                    <h3>Literary Circle</h3>
+                </div>
+                <div class="carousel-item">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #eab70e 0%, #faef01 100%); border-radius: 8px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 28px;">🌍</div>
+                    <h3>Environmental Club</h3>
+                </div>
+                <div class="carousel-item">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #eab70e 0%, #faef01 100%); border-radius: 8px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 28px;">🏃</div>
+                    <h3>Sports Development</h3>
+                </div>
+                <div class="carousel-item">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #eab70e 0%, #faef01 100%); border-radius: 8px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 28px;">🤝</div>
+                    <h3>Community Service</h3>
+                </div>
+                <div class="carousel-item">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #eab70e 0%, #faef01 100%); border-radius: 8px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 28px;">💼</div>
+                    <h3>Business Club</h3>
+                </div>
+                <div class="carousel-item">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #eab70e 0%, #faef01 100%); border-radius: 8px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 28px;">🎓</div>
+                    <h3>Scholars Forum</h3>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <button class="carousel-btn" onclick="scrollCarousel(document.querySelectorAll('.carousel-section')[1], -1)">← Previous</button>
+            <button class="carousel-btn" onclick="scrollCarousel(document.querySelectorAll('.carousel-section')[1], 1)">Next →</button>
+        </div>
+    </section>
+
+    <!-- ============ MAP SECTION 7 ============ -->
+    <section class="map-section">
+        <div class="map-container">
+            <h2>Visit Us</h2>
+            <div class="map-wrapper">
+                <div class="map-frame">
+                    <iframe title="Pateros Technological College Location Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.8!2d121.0691214!3d14.552719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8863fae6025%3A0xe4f1a76191156148!2sPateros%20Technological%20College!5e0!3m2!1sen!2sph!4v1701947894123" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="map-info">
+                    <h3>📍 Our Location</h3>
+                    <div class="map-info-item">
+                        <strong>Address</strong>
+                        <p>205 College Street, Pasig, Metro Manila, Philippines</p>
+                    </div>
+                    <div class="map-info-item">
+                        <strong>Phone</strong>
+                        <p>(02) 8641-2345</p>
+                    </div>
+                    <div class="map-info-item">
+                        <strong>Email</strong>
+                        <p>info@paterostech.edu.ph</p>
+                    </div>
+                    <div class="map-info-item">
+                        <strong>Operating Hours</strong>
+                        <p>Monday - Friday: 7:00 AM - 6:00 PM<br>Saturday: 7:00 AM - 12:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ QUICK LINKS ============ -->
+    <section class="carousel-section" style="background-color: white;">
+        <h2>Quick Links</h2>
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem;">
+                <a href="portal.html" class="quick-link-btn" style="display:block;">Student Portal</a>
+                <button class="quick-link-btn">Check Grades</button>
+                <a href="dlibrary.html" class="quick-link-btn" style="display:block;">Digital Library</a>
+                <a href="admissions.html" class="quick-link-btn" style="display:block;">Admission Info</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Pateros Tech</h3>
+                    <p>Pateros Technological College is committed to providing quality education and developing skilled professionals who will contribute to national development.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <p><strong>Address:</strong><br>General Luna St., Pateros, Metro Manila, Philippines</p>
+                    <p><strong>Phone:</strong><br>(02) 8641-2345</p>
+                    <p><strong>Email:</strong><br>info@paterostech.edu.ph</p>
+                </div>
+                <div class="footer-section">
+                    <h3>School Organizations</h3>
+                    <div class="org-logos" style="display:flex;gap:0.5rem;flex-wrap:wrap;">
+                        <a href="https://www.facebook.com/share/17WUbY1JrE/" target="_blank" rel="noopener noreferrer"><img src="logos/SUPREME STUDENT COUNCIL.png" alt="SSC" style="width:56px;height:56px;object-fit:contain;border-radius:8px;"></a>
+                        <a href="https://www.facebook.com/share/1BvKcNwUQN/" target="_blank" rel="noopener noreferrer"><img src="logos/PLUMAGE.png" alt="The Plumage" style="width:56px;height:56px;object-fit:contain;border-radius:8px;"></a>
+                        <a href="https://www.facebook.com/share/1H4L6XBSfG/" target="_blank" rel="noopener noreferrer"><img src="logos/IMAGE.jpg" alt="IMAGE" style="width:56px;height:56px;object-fit:contain;border-radius:8px;"></a>
+                        <a href="https://www.facebook.com/share/1A4e4663Ac/" target="_blank" rel="noopener noreferrer"><img src="logos/PTC JPCS.png" alt="JPCS" style="width:56px;height:56px;object-fit:contain;border-radius:8px;"></a>
+                        <a href="https://www.facebook.com/share/1G2f7yGTDj/" target="_blank" rel="noopener noreferrer"><img src="logos/PTC JPASAPS.png" alt="JPASAPS" style="width:56px;height:56px;object-fit:contain;border-radius:8px;"></a>
+                        <a href="https://www.facebook.com/share/1XoSdGtPnS/" target="_blank" rel="noopener noreferrer"><img src="logos/PTC MENTORSHIP ORGANIZATION.png" alt="PMO" style="width:56px;height:56px;object-fit:contain;border-radius:8px;"></a>
+                        <a href="https://www.facebook.com/share/1A8YHDdXTK/" target="_blank" rel="noopener noreferrer"><img src="logos/CHAMBERS.jpg" alt="Chambers" style="width:56px;height:56px;object-fit:contain;border-radius:8px;"></a>
+                        <a href="https://www.paterostechnologicalcollege.edu.ph/PTC%20Life/CSJS/" target="_blank" rel="noopener noreferrer"><img src="logos/PTC SFHRE.png" alt="SFHRE" style="width:56px;height:56px;object-fit:contain;border-radius:8px;"></a>
+                        <a href="https://www.facebook.com/share/1C7NtqBmZu/" target="_blank" rel="noopener noreferrer"><img src="logos/GIFTD.jpg" alt="GIFT'D" style="width:56px;height:56px;object-fit:contain;border-radius:8px;"></a>
+                        <a href="https://www.facebook.com/share/1AAajwKpYC/" target="_blank" rel="noopener noreferrer"><img src="logos/GROOVERS.jpg" alt="United Groovers" style="width:56px;height:56px;object-fit:contain;border-radius:8px;"></a>
+                        <a href="https://www.facebook.com/share/1Eqw8xRFtX/" target="_blank" rel="noopener noreferrer"><img src="logos/PTC ESPORTS TECHDUCKS.png" alt="Esports" style="width:56px;height:56px;object-fit:contain;border-radius:8px;"></a>
+                        <a href="https://www.facebook.com/share/1BTZLUxYb2/" target="_blank" rel="noopener noreferrer"><img src="logos/DRUM-LYRE.jpg" alt="Drum & Lyre" style="width:56px;height:56px;object-fit:contain;border-radius:8px;"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pateros Technological College. All rights reserved. | <a href="#privacy" style="color: #999; text-decoration: none;">Privacy Policy</a> | <a href="#terms" style="color: #999; text-decoration: none;">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

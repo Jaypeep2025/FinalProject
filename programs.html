@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs Offered — Pateros Technological College</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-section">
+                <div class="logo"><img src="logos/PTC LOGO.png" alt="PTC Logo"></div>
+                <div class="school-name">Pateros Technological College</div>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About the School</a>
+                <a href="programs.html">Offered Programs</a>
+                <a href="organizations.html">School Organizations</a>
+                <a href="admissions.html">Admission</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="academic-programs-section">
+            <h1 class="section-title">Academic Programs</h1>
+        
+            <div class="categories">
+                <button class="category-btn active" data-category="four">4-Year Programs</button>
+                <button class="category-btn" data-category="two">2-Year Programs</button>
+            </div>
+        
+            <div class="program-shortcuts four-year">
+                <button class="program-btn" data-program="bsit">BSIT</button>
+                <button class="program-btn" data-program="bsoa">BSOA</button>
+            </div>
+        
+            <div class="program-shortcuts two-year" style="display:none;">
+                <button class="program-btn" data-program="ccs">CCS</button>
+                <button class="program-btn" data-program="coa">COA</button>
+                <button class="program-btn" data-program="ahrhm">AHRHM</button>
+            </div>
+        
+            <div class="program-container">
+                <div class="program-cover show">
+                    <div class="program-logo" style="background-color: var(--ptc-green);">
+                        <img src="logos/PTC LOGO.png" alt="School Logo" style="width:150px;">
+                    </div>
+                    <h2 style="color: var(--ptc-green);">Welcome to Our Academic Programs</h2>
+                    <p style="margin-top: 1rem; color: #666;">Select a category above to view our course offerings.</p>
+                </div>
+        
+                <div class="program-details" id="bsit">
+                    <div class="program-logo" style="background-color: var(--ptc-green);">
+                        <img src="logos/BSIT.png" alt="BSIT Logo">
+                    </div>
+                    <div class="program-info">
+                        <h2>BS Information Technology</h2>
+                        <span class="school-name">School of IT</span>
+                        <p>The BSIT program focuses on developing students’ technical skills in software development, networking, database management, and cybersecurity. Graduates are prepared to design and implement IT solutions, manage systems, and contribute to the digital transformation of organizations.</p>
+                    </div>
+                </div>
+        
+                <div class="program-details" id="bsoa">
+                    <div class="program-logo" style="background-color: var(--ptc-green);">
+                        <img src="logos/BSOA.png" alt="BSOA Logo">
+                    </div>
+                    <div class="program-info">
+                        <h2>BS Office Administration</h2>
+                        <span class="school-name">School of Administration</span>
+                        <p>BSOA equips students with managerial, administrative, and leadership skills needed to efficiently run offices and business operations. The program emphasizes office management, human resources, business communication, and organizational development.</p>
+                    </div>
+                </div>
+        
+                <div class="program-details" id="ccs">
+                    <div class="program-logo" style="background-color: var(--ptc-green);">
+                        <img src="logos/CSS.png" alt="CCS Logo">
+                    </div>
+                    <div class="program-info">
+                        <h2>Computer & Communication Systems (CCS)</h2>
+                        <span class="school-name">2-Year Course</span>
+                        <p>The CCS program provides foundational knowledge in computing, programming, and problem-solving. It is designed for students who want to start a career in IT or pursue further studies in computer science and related fields.</p>
+                    </div>
+                </div>
+        
+                <div class="program-details" id="coa">
+                    <div class="program-logo" style="background-color: var(--ptc-green);">
+                        <img src="logos/BSOA.png" alt="COA Logo">
+                    </div>
+                    <div class="program-info">
+                        <h2>Certificate in Office Administration (COA)</h2>
+                        <span class="school-name">2-Year Course</span>
+                        <p>COA trains students in essential office and administrative tasks, including clerical work, record management, basic accounting, and communication skills. Graduates can efficiently support office operations in various industries.</p>
+                    </div>
+                </div>
+        
+                <div class="program-details" id="ahrhm">
+                    <div class="program-logo" style="background-color: var(--ptc-green);">
+                        <img src="logos/AHRHM.png" alt="AHRHM Logo">
+                    </div>
+                    <div class="program-info">
+                        <h2>Associate in Hotel & Restaurant Management (AHRHM)</h2>
+                        <span class="school-name">2-Year Course</span>
+                        <p>AHRHM prepares students for careers in the hospitality and tourism industry. It covers hotel operations, food and beverage management, customer service, and event planning, equipping graduates with practical skills to excel in hotels, restaurants, and tourism-related businesses.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Pateros Tech</h3>
+                    <p>Pateros Technological College is committed to providing quality education.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <p><strong>Address:</strong> General Luna St., Pateros, Metro Manila</p>
+                    <p><strong>Email:</strong> info@paterostech.edu.ph</p>
+                </div>
+                <div class="footer-section">
+                    <h3>School Organizations</h3>
+                    <div class="org-logos" style="display:flex;gap:0.5rem;flex-wrap:wrap;">
+                        <a href="https://www.facebook.com/share/17WUbY1JrE/" target="_blank" rel="noopener noreferrer"><img src="logos/SUPREME STUDENT COUNCIL.png" alt="SSC" style="width:56px;height:56px;object-fit:contain;border-radius:8px;"></a>
+                        <a href="https://www.facebook.com/share/1BvKcNwUQN/" target="_blank" rel="noopener noreferrer"><img src="logos/PLUMAGE.png" alt="The Plumage" style="width:56px;height:56px;object-fit:contain;border-radius:8px;"></a>
+                        <a href="https://www.facebook.com/share/1H4L6XBSfG/" target="_blank" rel="noopener noreferrer"><img src="logos/IMAGE.jpg" alt="IMAGE" style="width:56px;height:56px;object-fit:contain;border-radius:8px;"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pateros Technological College. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

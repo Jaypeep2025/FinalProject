@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Library — Pateros Technological College</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-section">
+                <div class="logo"><img src="logos/PTC LOGO.png" alt="PTC Logo"></div>
+                <div class="school-name">Pateros Technological College</div>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About the School</a>
+                <a href="programs.html">Offered Programs</a>
+                <a href="organizations.html">School Organizations</a>
+                <a href="admissions.html">Admission</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="key-information">
+        <h1 class="section-title">Digital Library</h1>
+
+        <div class="dl-search" style="max-width:1000px;margin:0 auto 2rem;display:flex;gap:1rem;align-items:center;">
+            <input id="dl-search-input" type="search" placeholder="Search resources (title, author, subject)" style="flex:1;padding:12px;border:1px solid #ddd;border-radius:6px;">
+            <button class="carousel-btn" onclick="document.getElementById('dl-search-input').focus()">Search</button>
+        </div>
+
+        <div class="dl-categories" style="max-width:1000px;margin:0 auto 2rem;display:flex;gap:1rem;flex-wrap:wrap;">
+            <button class="category-pill">eBooks</button>
+            <button class="category-pill">Research Papers</button>
+            <button class="category-pill">Course Modules</button>
+            <button class="category-pill">Multimedia</button>
+            <button class="category-pill">Archives</button>
+        </div>
+
+        <section class="dl-resources" style="max-width:1100px;margin:0 auto;">
+            <h2 style="margin-bottom:1rem;">Featured Resources</h2>
+            <div class="resource-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.25rem;">
+                <article class="resource-card">
+                    <div class="resource-thumb" style="height:160px;background:#f2f7ff;display:flex;align-items:center;justify-content:center;font-weight:700;color:#2b6cb0;">PDF</div>
+                    <h3>Introduction to Web Technologies</h3>
+                    <p class="muted">Author: PTC Faculty • 2024 • eBook</p>
+                    <div style="margin-top:8px;"><a href="#" class="carousel-btn">Download</a> <a href="#" style="margin-left:8px;color:var(--ptc-green);text-decoration:none;">Preview</a></div>
+                </article>
+
+                <article class="resource-card">
+                    <div class="resource-thumb" style="height:160px;background:#fff8e6;display:flex;align-items:center;justify-content:center;font-weight:700;color:#b7791f;">DOC</div>
+                    <h3>PTC Student Handbook</h3>
+                    <p class="muted">Author: Registrar • 2025 • Handbook</p>
+                    <div style="margin-top:8px;"><a href="#" class="carousel-btn">Download</a> <a href="#" style="margin-left:8px;color:var(--ptc-green);text-decoration:none;">Preview</a></div>
+                </article>
+
+                <article class="resource-card">
+                    <div class="resource-thumb" style="height:160px;background:#f6fff0;display:flex;align-items:center;justify-content:center;font-weight:700;color:#1f9d55;">PDF</div>
+                    <h3>Research: Local Industry Needs</h3>
+                    <p class="muted">Author: CESSCA Research • 2023 • Paper</p>
+                    <div style="margin-top:8px;"><a href="#" class="carousel-btn">Download</a> <a href="#" style="margin-left:8px;color:var(--ptc-green);text-decoration:none;">Preview</a></div>
+                </article>
+
+                <article class="resource-card">
+                    <div class="resource-thumb" style="height:160px;background:#fef2f2;display:flex;align-items:center;justify-content:center;font-weight:700;color:#c53030;">MP4</div>
+                    <h3>Campus Tour (Video)</h3>
+                    <p class="muted">PTC Communications • 2025 • Video</p>
+                    <div style="margin-top:8px;"><a href="#" class="carousel-btn">Watch</a></div>
+                </article>
+
+                <article class="resource-card">
+                    <div class="resource-thumb" style="height:160px;background:#f0f9ff;display:flex;align-items:center;justify-content:center;font-weight:700;color:#3182ce;">PDF</div>
+                    <h3>Course Module: Basic Networking</h3>
+                    <p class="muted">Computer Science Dept. • Module</p>
+                    <div style="margin-top:8px;"><a href="#" class="carousel-btn">Download</a></div>
+                </article>
+
+                <article class="resource-card">
+                    <div class="resource-thumb" style="height:160px;background:#f9f9ff;display:flex;align-items:center;justify-content:center;font-weight:700;color:#6b46c1;">ZIP</div>
+                    <h3>Event Media Pack (GIFT'D 2024)</h3>
+                    <p class="muted">Marketing • Images & Video</p>
+                    <div style="margin-top:8px;"><a href="#" class="carousel-btn">Download</a></div>
+                </article>
+            </div>
+        </section>
+
+        <section style="max-width:1000px;margin:3rem auto;text-align:center;color:#666;">
+            <p>Want to add resources? Contact the Library team at <a href="mailto:library@paterostechnologicalcollege.edu.ph">library@paterostechnologicalcollege.edu.ph</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Digital Library</h3>
+                    <p>Browse curated learning resources and campus publications.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><strong>Email:</strong> library@paterostechnologicalcollege.edu.ph</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                     <ul>
+                        <li><a href="portal.html">Student Portal</a></li>
+                        <li><a href="programs.html">Academics</a></li>
+                     </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pateros Technological College. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
